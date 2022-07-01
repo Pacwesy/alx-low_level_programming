@@ -5,7 +5,8 @@
 /**
  *Description:Display if zero or negative or positive number
  *Return: 0, if success
- *main-check if number
+ *main - check if number
+ *
  *@void: null value
  */
 
