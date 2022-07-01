@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- *main - Entry point 
- *@void: Null value
+ * main - Entry point 
+ * @void: Null value
  *
- *Description: Print alphabet lowercase
- *Return: Zero value
+ * Description: Print alphabet lowercase
+ * Return: Zero value
  */
 int main(void)
 {
