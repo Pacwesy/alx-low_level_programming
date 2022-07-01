@@ -1,15 +1,12 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
-
+#include <time.h>
+#include <stdio.h>
 /**
- *Description:Display if zero or negative or positive number
- *Return: 0, if success
- *main - check if number
- *
- *@void: null value
- */
-
+*main - check if number.
+*@void: Null value
+* Description: Display if a number is positive, negative or zero
+* Return: Zero value
+*/
 int main(void)
 {
 int n;
@@ -19,7 +16,7 @@ if (n > 0)
 {
 printf("%d is positive\n", n);
 }
-else if (n < 0);
+else if (n < 0)
 {
 printf("%d is negative\n", n);
 }
@@ -28,5 +25,4 @@ else
 printf("%d is zero\n", n);
 }
 return (0);
-
 }
