@@ -1,20 +1,25 @@
 #include "main.h"
 /**
- *print_sign - prints sign based on conditional argument
- *
- *@n: checks for input number
+ *print_sign-> prints sign based on condition
+ *@n:arguments passed
  *return: int.
  */
 int print_sign(int n)
 {
 if (n > 0)
 {
-_putchar(45);
-return (-1);
+_putchar('+');
+return (1);
+}
+else if (n == 0)
+{
+_putchar('0');
+return (0);
 }
 else
 {
-_putchar(48);
-return (0);
+_putchar('_');
+return ('-1');
 }
 }
+
