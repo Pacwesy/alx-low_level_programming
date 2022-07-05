@@ -4,7 +4,7 @@
  * @p: The input number to check
  * Return: int.
  */
-int int _abs(int p)
+int _abs(int p)
 {
 if (p < 0)
 {
