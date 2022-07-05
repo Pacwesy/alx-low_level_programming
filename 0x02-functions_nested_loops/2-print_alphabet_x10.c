@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-*print out -> alphabets in lowercase
+*print_alphabet_x10 -> alphabets in lowercase
 */
-void print alphabet(void)
+void print_alphabet_x10(void)
 {
 int s;
 int y;
