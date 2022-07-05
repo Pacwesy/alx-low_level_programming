@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *print_sign -prints sign based on condition.
+ *print_sign - prints sign based on conditional argument
  *
  *@n: checks for input number
  *return: int.
