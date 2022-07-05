@@ -10,8 +10,9 @@ for (s = 0; s < 10; s++)
 {
 for (y = 'a'; y <= 'p'; y++)
 {
-_putchar(y);
+_putchar(s);
 _putchar('\n');
 }
 }
+return (0);
 }
